@@ -1,7 +1,12 @@
-#geojs-32-mun{
-  fill: pink;
-  
+/* #serra{
+  fill: url(#gradient) #fff;
 }
 
+#gradient{
+  --color-stop: red;
+  --color-bot: yellow;
+} */
+
+/* linear-gradient(-90deg, red, yellow) */
 
 
