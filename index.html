@@ -15,6 +15,19 @@
   </head>
   <body>
     <div class="container">
+      <br><br>
+      <div class="btn-group btn-group-toggle" data-toggle="buttons" id="radio">
+          <label class="btn btn-light-personalizado">
+            <input type="radio" name="options" id="option1" value="cluster" autocomplete="off"> Cluster
+          </label>
+          <label class="btn btn-light-personalizado">
+            <input type="radio" name="options" id="option2" value="regional" autocomplete="off"> Regional
+          </label>
+          <label class="btn btn-light-personalizado">
+            <input type="radio" name="options" id="option3" value="estadual" autocomplete="off"> Estadual
+          </label>
+        </div>
+        <br><br>
         <form>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Municipios</label>
@@ -23,8 +36,9 @@
             </select>
           </div>
         </form>  
+        
         <p>Muninipios e cluster</p>
-        <ul id="teste"></ul>
+        <ul id="agrupamentos"></ul>
 
         <!-- <embed id="map" src="municipios-es.svg" type="image/svg+xml"> -->
         <!-- <object id="map" data="municipios-es.svg" type="image/svg+xml"></object> -->
