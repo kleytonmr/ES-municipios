@@ -81,7 +81,6 @@ function clicked(data){
   $('g').on('click', function() {
     var munic_current = $(this).attr("id")
     $("#list-munic").val($(this).attr("id")).change();
-    console.log(munic_current)
 
     for (var i in data){
       $("#" + data[i].key).css("fill", "#e7e8ea");
